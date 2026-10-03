@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Rifa 150</title>
+<title>Rifa 105</title>
 
 <style>
 :root{color-scheme:light dark;--bg:#0b1020;--surface:#121a2d;--surface2:#19233b;--text:#f7f8fc;--muted:#aeb8ce;--accent:#ff3d71;--accent2:#7c5cff;--ok:#25d69a;--line:#2b3857}
@@ -100,7 +100,7 @@ html,body{margin:0;min-height:100%;font-family:Inter,system-ui,-apple-system,Seg
 <section class="hero">
 <span class="badge">🎟️ Rifa digital • 6toA</span>
 
-<h1>Rifa de <span>150 números</span></h1>
+<h1>Rifa de <span>105 números</span></h1>
 
 <p>
 ELIGE EL NUMERO QUE VENDISTE CON TU NOMBRE
@@ -119,7 +119,7 @@ Selecciona un número disponible para registrarlo.
 <section class="stats">
 
 <div class="stat">
-<b id="total">150</b>
+<b id="total">105</b>
 <small>Números totales</small>
 </div>
 
@@ -129,7 +129,7 @@ Selecciona un número disponible para registrarlo.
 </div>
 
 <div class="stat">
-<b id="left">150</b>
+<b id="left">105</b>
 <small>Disponibles</small>
 </div>
 
@@ -308,7 +308,7 @@ document.getElementById('rows');
 grid.innerHTML = '';
 
 
-for (let i = 1; i <= 150; i++) {
+for (let i = 1; i <= 105; i++) {
 
 const b =
 document.createElement('button');
@@ -379,7 +379,7 @@ document.getElementById('sold').textContent =
 vals.length;
 
 document.getElementById('left').textContent =
-150 - vals.length;
+105 - vals.length;
 
 }
 
@@ -637,9 +637,7 @@ document.getElementById('modalback')
 'click',
 e => {
 
-if (
-e.target.id === 'modalback'
-)
+if (e.target.id === 'modalback')
 closeModal();
 
 }
